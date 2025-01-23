@@ -2,7 +2,7 @@ import re
 import os
 import csv
 import json
-import shutil
+import shutils
 from collections import defaultdict
 
 def read_csv_to_list(csv_path):
@@ -31,7 +31,7 @@ def find_and_copy_files(file_list, source_folder, found_folder, found_csv):
         for filename in matching_files:
             source_path = os.path.join(root, filename)
             destination_path = os.path.join(found_folder, filename)
-            shutil.copy(source_path, destination_path)
+            shutils.copy(source_path, destination_path)
             found_file.append(filename, os.path.abspath(found_folder))
 
         not_found_files -= matching_files
@@ -88,6 +88,8 @@ if __name__ == "__main__":
         process_found_files(found_folder, output_json)
         print(f"Staad Review Completed.Results saved to '{output_json}")
         print(f"Found files list saved to '{found_csv}'.")
+
+        #done
 
     
 
