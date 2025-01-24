@@ -2,7 +2,7 @@ import re
 import os
 import csv
 import json
-import shutils
+import shutil
 from collections import defaultdict
 
 def read_csv_to_list(csv_path):
@@ -17,7 +17,6 @@ def append_extension(file_list, extension):
 
 
 def find_and_copy_files(file_list, source_folder, found_folder, found_csv):
-
     not_found_files = set(file_list)
     found_file = []
 
@@ -31,17 +30,20 @@ def find_and_copy_files(file_list, source_folder, found_folder, found_csv):
         for filename in matching_files:
             source_path = os.path.join(root, filename)
             destination_path = os.path.join(found_folder, filename)
-            shutils.copy(source_path, destination_path)
-            found_file.append(filename, os.path.abspath(found_folder))
+            shutil.copy(source_path, destination_path)
+            # Append as a tuple of filename and absolute destination path
+            found_file.append((filename, os.path.abspath(destination_path)))
 
         not_found_files -= matching_files
 
+    # Writing found files to the CSV
     with open(found_csv, 'w', newline='') as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow(csvfile)
-            writer.writerows(found_file)
+        writer = csv.writer(csvfile)
+        writer.writerow(["Filename", "Path"])  # Correctly write the column headers
+        writer.writerows(found_file)          # Write all rows (filename and path)
 
     return list(not_found_files)
+
 
 
 def extract_text_from_file(file_path):
@@ -49,12 +51,12 @@ def extract_text_from_file(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
 
-    match = re.search(r'\(staad run no\.1)(.*?)(?=FINISH)', content, re.DOTALL | re.IGNORECASE)
+    match = re.search(r'\(staad run no\.1\)(.*?)(?=FINISH)', content, re.DOTALL | re.IGNORECASE)
+
     return match.group(1).strip() if match else None
 
 def process_found_files(found_folder, output_json):
-
-    results = {}
+    results = {}  # Correct variable name
 
     for filename in os.listdir(found_folder):
         file_path = os.path.join(found_folder, filename)
@@ -62,11 +64,13 @@ def process_found_files(found_folder, output_json):
         results[filename] = extracted_text if extracted_text else "No relevant text found"
 
     with open(output_json, 'w') as json_file:
-        json.dump(result, json_file, indent = 4)
+        json.dump(results, json_file, indent=4)  # Correct variable name
+
+
 
 if __name__ == "__main__":
-    csv_path = "ps_list.csv"
-    source_folder = "./input/staad"
+    csv_path = "support_list_tpr.csv"
+    source_folder = "./input/Staad"
     found_folder = "./found"
     found_csv = "found_files.csv"
     output_json = "output.json"
