@@ -1,0 +1,440 @@
+                          PROGRAM: STAAD.Pro
+                          VERSION: 23.00.01.25     
+                11:53: 9:49  ENTERING STAAD                                    
+                11:53: 9:51  USING 64 BIT STAAD ENGINE                         
+                11:53: 9:51  ENTERING MAINN                                    
+                11:53: 9:52  START JOB INFORMATION                             
+                11:53: 9:52  INPUT WIDTH 79                                    
+                11:53: 9:52  UNIT MMS KN                                       
+                11:53: 9:53  JOINT COORDINATES                                 
+                11:53: 9:53  ENTERING JOINTC                                   
+                11:53: 9:53  JOINTC NEWJ                                 400000
+                11:53: 9:54  MAX NODE NO.                                    11
+                11:53: 9:54  MEMBER INCIDENCES                                 
+                11:53: 9:55  UNIT METER KN                                     
+                11:53: 9:55  DEFINE MATERIAL START                             
+                11:53: 9:56  UNIT MMS KN                                       
+                11:53: 9:56  MEMBER PROPERTY EUROP                             
+                11:53: 9:68    ++ Finished Reading Member Properties ...       
+                11:53: 9:68  CONSTANTS                                         
+                11:53: 9:69  SUPPORTS                                          
+                11:53: 9:69  ENTERING SUPPORT                                  
+                11:53: 9:70  UNIT METER KN                                     
+                11:53: 9:70  DEFINE WIND LOAD                                  
+                11:53: 9:71  LOAD 121 LOADTYPE DEA                             
+                11:53: 9:71  DUPLICATE ELEMENT CHECK                           
+                11:53: 9:71  CHECKING STRUCTURAL INTEGRITY                     
+                11:53: 9:72  CHECK UNCONNECTED JOINTS AND                      
+                11:53: 9:72  CALCULATE MAX JOINT CONNECTIVITY                  
+                11:53: 9:73  CHECK MULTIPLE STRUCTURES                         
+                11:53: 9:73  ENTERING SUPPORT                                  
+                11:53: 9:73  NRJOLD                                           0
+                11:53: 9:74  SUPPORT NOLD                                     0
+                11:53: 9:74  SUPPORT N                                       42
+                11:53: 9:75  BEFORE LOADPR                                     
+                11:53: 9:75  REOPEN AS DIR                                    0
+                11:53: 9:75  ENTER LOADPR                                      
+                11:53: 9:86  PERFORM ANALYSIS PRIN                             
+                11:53: 9:86  pdel iter                                        0
+                11:53: 9:87  MAXIMUM E =                           2.973273E+04
+                11:53: 9:87  MINIMUM E =                           2.973273E+04
+                11:53: 9:87  MBW DOF BAND=                                    1
+                11:53: 9:88  NUMBER OF PRIMARY CASES                        101
+                11:53: 9:88  NUMBER OF CASES                                252
+                11:53: 9:89  #OF CASES W/ELEM INMEMORY                      252
+                11:53: 9:89  MEMORY FOR MEMBER LOADS                      30240
+                11:53: 9:89  MEMORY FOR DISPLACEMENTS                     16632
+                11:53: 9:90  MEMORY FOR MEMBER FORCES                     30240
+                11:53: 9:90  Using 64-bit analysis engine                      
+                11:53: 9:91  BEFORE SOLVER 1                                   
+                11:53: 9:91  Start Input for Next Load Case                    
+                11:53: 9:91  case no=  121 seq. no=   1 idynl= 0               
+                11:53: 9:92  MASSSET                                          0
+                11:53: 9:92  LOADEND ISLAVE                                   0
+                11:53: 9:93  Start Input for Next Load Case                    
+                11:53: 9:93  case no=  201 seq. no=   2 idynl= 0               
+                11:53: 9:93  LOADEND ISLAVE                                   0
+                11:53: 9:94  Start Input for Next Load Case                    
+                11:53: 9:94  case no=  202 seq. no=   3 idynl= 0               
+                11:53: 9:94  LOADEND ISLAVE                                   0
+                11:53: 9:95  Start Input for Next Load Case                    
+                11:53: 9:95  case no=  203 seq. no=   4 idynl= 0               
+                11:53: 9:96  LOADEND ISLAVE                                   0
+                11:53: 9:96  Start Input for Next Load Case                    
+                11:53: 9:96  case no=  204 seq. no=   5 idynl= 0               
+                11:53: 9:97  LOADEND ISLAVE                                   0
+                11:53: 9:97  Start Input for Next Load Case                    
+                11:53: 9:98  case no=  205 seq. no=   6 idynl= 0               
+                11:53: 9:98  LOADEND ISLAVE                                   0
+                11:53: 9:98  Start Input for Next Load Case                    
+                11:53: 9:99  case no=  206 seq. no=   7 idynl= 0               
+                11:53: 9:99  LOADEND ISLAVE                                   0
+                11:53:10: 0  Start Input for Next Load Case                    
+                11:53:10: 0  case no=  207 seq. no=   8 idynl= 0               
+                11:53:10: 0  LOADEND ISLAVE                                   0
+                11:53:10: 1  Start Input for Next Load Case                    
+                11:53:10: 1  case no=  208 seq. no=   9 idynl= 0               
+                11:53:10: 2  LOADEND ISLAVE                                   0
+                11:53:10: 2  Start Input for Next Load Case                    
+                11:53:10: 2  case no=  312 seq. no=  10 idynl= 0               
+                11:53:10: 3  LOADEND ISLAVE                                   0
+                11:53:10: 3  Start Input for Next Load Case                    
+                11:53:10: 4  case no=  313 seq. no=  11 idynl= 0               
+                11:53:10: 4  LOADEND ISLAVE                                   0
+                11:53:10: 4  Start Input for Next Load Case                    
+                11:53:10: 5  case no=  314 seq. no=  12 idynl= 0               
+                11:53:10: 5  LOADEND ISLAVE                                   0
+                11:53:10: 6  Start Input for Next Load Case                    
+                11:53:10: 6  case no=  315 seq. no=  13 idynl= 0               
+                11:53:10: 6  LOADEND ISLAVE                                   0
+                11:53:10: 7  Start Input for Next Load Case                    
+                11:53:10: 7  case no=  322 seq. no=  14 idynl= 0               
+                11:53:10: 7  LOADEND ISLAVE                                   0
+                11:53:10: 8  Start Input for Next Load Case                    
+                11:53:10: 8  case no=  323 seq. no=  15 idynl= 0               
+                11:53:10: 9  LOADEND ISLAVE                                   0
+                11:53:10: 9  Start Input for Next Load Case                    
+                11:53:10: 9  case no=  324 seq. no=  16 idynl= 0               
+                11:53:10:10  LOADEND ISLAVE                                   0
+                11:53:10:10  Start Input for Next Load Case                    
+                11:53:10:11  case no=  325 seq. no=  17 idynl= 0               
+                11:53:10:11  LOADEND ISLAVE                                   0
+                11:53:10:12  Start Input for Next Load Case                    
+                11:53:10:12  case no=  332 seq. no=  18 idynl= 0               
+                11:53:10:13  LOADEND ISLAVE                                   0
+                11:53:10:13  Start Input for Next Load Case                    
+                11:53:10:13  case no=  333 seq. no=  19 idynl= 0               
+                11:53:10:14  LOADEND ISLAVE                                   0
+                11:53:10:14  Start Input for Next Load Case                    
+                11:53:10:15  case no=  334 seq. no=  20 idynl= 0               
+                11:53:10:15  LOADEND ISLAVE                                   0
+                11:53:10:15  Start Input for Next Load Case                    
+                11:53:10:16  case no=  335 seq. no=  21 idynl= 0               
+                11:53:10:16  LOADEND ISLAVE                                   0
+                11:53:10:17  Start Input for Next Load Case                    
+                11:53:10:17  case no=  411 seq. no=  22 idynl= 0               
+                11:53:10:17  LOADEND ISLAVE                                   0
+                11:53:10:18  Start Input for Next Load Case                    
+                11:53:10:18  case no=  412 seq. no=  23 idynl= 0               
+                11:53:10:18  LOADEND ISLAVE                                   0
+                11:53:10:19  Start Input for Next Load Case                    
+                11:53:10:19  case no=  413 seq. no=  24 idynl= 0               
+                11:53:10:20  LOADEND ISLAVE                                   0
+                11:53:10:20  Start Input for Next Load Case                    
+                11:53:10:21  case no=  414 seq. no=  25 idynl= 0               
+                11:53:10:21  LOADEND ISLAVE                                   0
+                11:53:10:21  Start Input for Next Load Case                    
+                11:53:10:22  case no=  415 seq. no=  26 idynl= 0               
+                11:53:10:22  LOADEND ISLAVE                                   0
+                11:53:10:23  Start Input for Next Load Case                    
+                11:53:10:24  case no=  416 seq. no=  27 idynl= 0               
+                11:53:10:24  LOADEND ISLAVE                                   0
+                11:53:10:25  Start Input for Next Load Case                    
+                11:53:10:25  case no=  417 seq. no=  28 idynl= 0               
+                11:53:10:26  LOADEND ISLAVE                                   0
+                11:53:10:26  Start Input for Next Load Case                    
+                11:53:10:27  case no=  418 seq. no=  29 idynl= 0               
+                11:53:10:27  LOADEND ISLAVE                                   0
+                11:53:10:28  Start Input for Next Load Case                    
+                11:53:10:28  case no=  421 seq. no=  30 idynl= 0               
+                11:53:10:28  LOADEND ISLAVE                                   0
+                11:53:10:29  Start Input for Next Load Case                    
+                11:53:10:29  case no=  422 seq. no=  31 idynl= 0               
+                11:53:10:30  LOADEND ISLAVE                                   0
+                11:53:10:30  Start Input for Next Load Case                    
+                11:53:10:30  case no=  423 seq. no=  32 idynl= 0               
+                11:53:10:31  LOADEND ISLAVE                                   0
+                11:53:10:31  Start Input for Next Load Case                    
+                11:53:10:32  case no=  424 seq. no=  33 idynl= 0               
+                11:53:10:32  LOADEND ISLAVE                                   0
+                11:53:10:32  Start Input for Next Load Case                    
+                11:53:10:33  case no=  425 seq. no=  34 idynl= 0               
+                11:53:10:33  LOADEND ISLAVE                                   0
+                11:53:10:34  Start Input for Next Load Case                    
+                11:53:10:34  case no=  426 seq. no=  35 idynl= 0               
+                11:53:10:35  LOADEND ISLAVE                                   0
+                11:53:10:35  Start Input for Next Load Case                    
+                11:53:10:36  case no=  427 seq. no=  36 idynl= 0               
+                11:53:10:36  LOADEND ISLAVE                                   0
+                11:53:10:37  Start Input for Next Load Case                    
+                11:53:10:37  case no=  428 seq. no=  37 idynl= 0               
+                11:53:10:37  LOADEND ISLAVE                                   0
+                11:53:10:38  Start Input for Next Load Case                    
+                11:53:10:38  case no=  711 seq. no=  38 idynl= 0               
+                11:53:10:39  LOADEND ISLAVE                                   0
+                11:53:10:39  Start Input for Next Load Case                    
+                11:53:10:39  case no=  712 seq. no=  39 idynl= 0               
+                11:53:10:40  LOADEND ISLAVE                                   0
+                11:53:10:40  Start Input for Next Load Case                    
+                11:53:10:40  case no=  713 seq. no=  40 idynl= 0               
+                11:53:10:41  LOADEND ISLAVE                                   0
+                11:53:10:41  Start Input for Next Load Case                    
+                11:53:10:42  case no=  714 seq. no=  41 idynl= 0               
+                11:53:10:42  LOADEND ISLAVE                                   0
+                11:53:10:43  Start Input for Next Load Case                    
+                11:53:10:43  case no=  715 seq. no=  42 idynl= 0               
+                11:53:10:43  LOADEND ISLAVE                                   0
+                11:53:10:44  Start Input for Next Load Case                    
+                11:53:10:44  case no=  716 seq. no=  43 idynl= 0               
+                11:53:10:45  LOADEND ISLAVE                                   0
+                11:53:10:45  Start Input for Next Load Case                    
+                11:53:10:45  case no=  717 seq. no=  44 idynl= 0               
+                11:53:10:46  LOADEND ISLAVE                                   0
+                11:53:10:46  Start Input for Next Load Case                    
+                11:53:10:47  case no=  718 seq. no=  45 idynl= 0               
+                11:53:10:47  LOADEND ISLAVE                                   0
+                11:53:10:47  Start Input for Next Load Case                    
+                11:53:10:48  case no= 1101 seq. no=  46 idynl= 0               
+                11:53:10:48  LOADEND ISLAVE                                   0
+                11:53:10:49  Start Input for Next Load Case                    
+                11:53:10:49  case no= 1102 seq. no=  47 idynl= 0               
+                11:53:10:49  LOADEND ISLAVE                                   0
+                11:53:10:50  Start Input for Next Load Case                    
+                11:53:10:50  case no= 1103 seq. no=  48 idynl= 0               
+                11:53:10:51  LOADEND ISLAVE                                   0
+                11:53:10:51  Start Input for Next Load Case                    
+                11:53:10:51  case no= 1104 seq. no=  49 idynl= 0               
+                11:53:10:52  LOADEND ISLAVE                                   0
+                11:53:10:52  Start Input for Next Load Case                    
+                11:53:10:53  case no= 1105 seq. no=  50 idynl= 0               
+                11:53:10:53  LOADEND ISLAVE                                   0
+                11:53:10:53  Start Input for Next Load Case                    
+                11:53:10:54  case no= 1106 seq. no=  51 idynl= 0               
+                11:53:10:54  LOADEND ISLAVE                                   0
+                11:53:10:55  Start Input for Next Load Case                    
+                11:53:10:55  case no= 1107 seq. no=  52 idynl= 0               
+                11:53:10:55  LOADEND ISLAVE                                   0
+                11:53:10:56  Start Input for Next Load Case                    
+                11:53:10:57  case no= 1108 seq. no=  53 idynl= 0               
+                11:53:10:57  LOADEND ISLAVE                                   0
+                11:53:10:57  Start Input for Next Load Case                    
+                11:53:10:58  case no= 1201 seq. no=  54 idynl= 0               
+                11:53:10:58  LOADEND ISLAVE                                   0
+                11:53:10:59  Start Input for Next Load Case                    
+                11:53:10:59  case no= 1202 seq. no=  55 idynl= 0               
+                11:53:10:60  LOADEND ISLAVE                                   0
+                11:53:10:60  Start Input for Next Load Case                    
+                11:53:10:60  case no= 1203 seq. no=  56 idynl= 0               
+                11:53:10:61  LOADEND ISLAVE                                   0
+                11:53:10:61  Start Input for Next Load Case                    
+                11:53:10:62  case no= 1204 seq. no=  57 idynl= 0               
+                11:53:10:62  LOADEND ISLAVE                                   0
+                11:53:10:62  Start Input for Next Load Case                    
+                11:53:10:63  case no= 1205 seq. no=  58 idynl= 0               
+                11:53:10:63  LOADEND ISLAVE                                   0
+                11:53:10:64  Start Input for Next Load Case                    
+                11:53:10:64  case no= 1206 seq. no=  59 idynl= 0               
+                11:53:10:64  LOADEND ISLAVE                                   0
+                11:53:10:65  Start Input for Next Load Case                    
+                11:53:10:65  case no= 1207 seq. no=  60 idynl= 0               
+                11:53:10:66  LOADEND ISLAVE                                   0
+                11:53:10:66  Start Input for Next Load Case                    
+                11:53:10:66  case no= 1208 seq. no=  61 idynl= 0               
+                11:53:10:67  LOADEND ISLAVE                                   0
+                11:53:10:67  Start Input for Next Load Case                    
+                11:53:10:68  case no= 2101 seq. no=  62 idynl= 0               
+                11:53:10:68  LOADEND ISLAVE                                   0
+                11:53:10:68  Start Input for Next Load Case                    
+                11:53:10:69  case no= 2102 seq. no=  63 idynl= 0               
+                11:53:10:69  LOADEND ISLAVE                                   0
+                11:53:10:70  Start Input for Next Load Case                    
+                11:53:10:70  case no= 2103 seq. no=  64 idynl= 0               
+                11:53:10:70  LOADEND ISLAVE                                   0
+                11:53:10:71  Start Input for Next Load Case                    
+                11:53:10:71  case no= 2104 seq. no=  65 idynl= 0               
+                11:53:10:72  LOADEND ISLAVE                                   0
+                11:53:10:72  Start Input for Next Load Case                    
+                11:53:10:72  case no= 2105 seq. no=  66 idynl= 0               
+                11:53:10:73  LOADEND ISLAVE                                   0
+                11:53:10:73  Start Input for Next Load Case                    
+                11:53:10:74  case no= 2106 seq. no=  67 idynl= 0               
+                11:53:10:74  LOADEND ISLAVE                                   0
+                11:53:10:75  Start Input for Next Load Case                    
+                11:53:10:75  case no= 2107 seq. no=  68 idynl= 0               
+                11:53:10:75  LOADEND ISLAVE                                   0
+                11:53:10:76  Start Input for Next Load Case                    
+                11:53:10:76  case no= 2108 seq. no=  69 idynl= 0               
+                11:53:10:76  LOADEND ISLAVE                                   0
+                11:53:10:77  Start Input for Next Load Case                    
+                11:53:10:77  case no= 3001 seq. no=  70 idynl= 0               
+                11:53:10:78  LOADEND ISLAVE                                   0
+                11:53:10:78  Start Input for Next Load Case                    
+                11:53:10:78  case no= 3002 seq. no=  71 idynl= 0               
+                11:53:10:79  LOADEND ISLAVE                                   0
+                11:53:10:79  Start Input for Next Load Case                    
+                11:53:10:80  case no= 3003 seq. no=  72 idynl= 0               
+                11:53:10:80  LOADEND ISLAVE                                   0
+                11:53:10:81  Start Input for Next Load Case                    
+                11:53:10:81  case no= 3004 seq. no=  73 idynl= 0               
+                11:53:10:81  LOADEND ISLAVE                                   0
+                11:53:10:82  Start Input for Next Load Case                    
+                11:53:10:82  case no= 3005 seq. no=  74 idynl= 0               
+                11:53:10:83  LOADEND ISLAVE                                   0
+                11:53:10:83  Start Input for Next Load Case                    
+                11:53:10:84  case no= 3006 seq. no=  75 idynl= 0               
+                11:53:10:84  LOADEND ISLAVE                                   0
+                11:53:10:84  Start Input for Next Load Case                    
+                11:53:10:85  case no= 3007 seq. no=  76 idynl= 0               
+                11:53:10:85  LOADEND ISLAVE                                   0
+                11:53:10:86  Start Input for Next Load Case                    
+                11:53:10:86  case no= 3008 seq. no=  77 idynl= 0               
+                11:53:10:86  LOADEND ISLAVE                                   0
+                11:53:10:87  Start Input for Next Load Case                    
+                11:53:10:87  case no= 3011 seq. no=  78 idynl= 0               
+                11:53:10:88  LOADEND ISLAVE                                   0
+                11:53:10:88  Start Input for Next Load Case                    
+                11:53:10:88  case no= 3012 seq. no=  79 idynl= 0               
+                11:53:10:89  LOADEND ISLAVE                                   0
+                11:53:10:89  Start Input for Next Load Case                    
+                11:53:10:90  case no= 3013 seq. no=  80 idynl= 0               
+                11:53:10:90  LOADEND ISLAVE                                   0
+                11:53:10:90  Start Input for Next Load Case                    
+                11:53:10:91  case no= 3014 seq. no=  81 idynl= 0               
+                11:53:10:91  LOADEND ISLAVE                                   0
+                11:53:10:92  Start Input for Next Load Case                    
+                11:53:10:92  case no= 3015 seq. no=  82 idynl= 0               
+                11:53:10:93  LOADEND ISLAVE                                   0
+                11:53:10:93  Start Input for Next Load Case                    
+                11:53:10:93  case no= 3016 seq. no=  83 idynl= 0               
+                11:53:10:94  LOADEND ISLAVE                                   0
+                11:53:10:94  Start Input for Next Load Case                    
+                11:53:10:95  case no= 3017 seq. no=  84 idynl= 0               
+                11:53:10:95  LOADEND ISLAVE                                   0
+                11:53:10:95  Start Input for Next Load Case                    
+                11:53:10:96  case no= 3018 seq. no=  85 idynl= 0               
+                11:53:10:96  LOADEND ISLAVE                                   0
+                11:53:10:96  Start Input for Next Load Case                    
+                11:53:10:97  case no= 3021 seq. no=  86 idynl= 0               
+                11:53:10:97  LOADEND ISLAVE                                   0
+                11:53:10:98  Start Input for Next Load Case                    
+                11:53:10:98  case no= 3022 seq. no=  87 idynl= 0               
+                11:53:10:99  LOADEND ISLAVE                                   0
+                11:53:10:99  Start Input for Next Load Case                    
+                11:53:10:99  case no= 3023 seq. no=  88 idynl= 0               
+                11:53:11: 0  LOADEND ISLAVE                                   0
+                11:53:11: 0  Start Input for Next Load Case                    
+                11:53:11: 1  case no= 3024 seq. no=  89 idynl= 0               
+                11:53:11: 1  LOADEND ISLAVE                                   0
+                11:53:11: 1  Start Input for Next Load Case                    
+                11:53:11: 2  case no= 3025 seq. no=  90 idynl= 0               
+                11:53:11: 2  LOADEND ISLAVE                                   0
+                11:53:11: 3  Start Input for Next Load Case                    
+                11:53:11: 3  case no= 3026 seq. no=  91 idynl= 0               
+                11:53:11: 4  LOADEND ISLAVE                                   0
+                11:53:11: 5  Start Input for Next Load Case                    
+                11:53:11: 5  case no= 3027 seq. no=  92 idynl= 0               
+                11:53:11: 6  LOADEND ISLAVE                                   0
+                11:53:11: 6  Start Input for Next Load Case                    
+                11:53:11: 7  case no= 3028 seq. no=  93 idynl= 0               
+                11:53:11: 7  LOADEND ISLAVE                                   0
+                11:53:11: 8  Start Input for Next Load Case                    
+                11:53:11: 8  case no= 3201 seq. no=  94 idynl= 0               
+                11:53:11: 8  LOADEND ISLAVE                                   0
+                11:53:11: 9  Start Input for Next Load Case                    
+                11:53:11: 9  case no= 3202 seq. no=  95 idynl= 0               
+                11:53:11:10  LOADEND ISLAVE                                   0
+                11:53:11:10  Start Input for Next Load Case                    
+                11:53:11:11  case no= 3203 seq. no=  96 idynl= 0               
+                11:53:11:11  LOADEND ISLAVE                                   0
+                11:53:11:12  Start Input for Next Load Case                    
+                11:53:11:12  case no= 3204 seq. no=  97 idynl= 0               
+                11:53:11:13  LOADEND ISLAVE                                   0
+                11:53:11:13  Start Input for Next Load Case                    
+                11:53:11:14  case no= 3205 seq. no=  98 idynl= 0               
+                11:53:11:15  LOADEND ISLAVE                                   0
+                11:53:11:15  Start Input for Next Load Case                    
+                11:53:11:16  case no= 3206 seq. no=  99 idynl= 0               
+                11:53:11:17  LOADEND ISLAVE                                   0
+                11:53:11:17  Start Input for Next Load Case                    
+                11:53:11:18  case no= 3207 seq. no= 100 idynl= 0               
+                11:53:11:19  LOADEND ISLAVE                                   0
+                11:53:11:19  Start Input for Next Load Case                    
+                11:53:11:20  case no= 3208 seq. no= 101 idynl= 0               
+                11:53:11:20  LOADEND ISLAVE                                   0
+                11:53:11:21  NVPREV                                           0
+                11:53:11:21  AMAXNON                               2.378609E-01
+                11:53:11:22  IRECSIZL=                                     4000
+                11:53:11:22  MTX BLOCKSIZE=                                  42
+                11:53:11:23  MI=                                             42
+                11:53:11:24  NORECL=                                          1
+                11:53:11:24  NORECL1=                                         1
+                11:53:11:25  IWORD=                                       32000
+                11:53:11:25  JRECSIZE=                                     4000
+                11:53:11:25  IWORDJ=                                      32000
+                11:53:11:26  IBYTE=                                           4
+                11:53:11:26  JOINTS=                                         11
+                11:53:11:27  MEMBERS=                                        10
+                11:53:11:27  PLATES =                                         0
+                11:53:11:27  SOLIDS =                                         0
+                11:53:11:28  NO. OF EQUATIONS=                               42
+                11:53:11:28  idyn=                                            0
+                11:53:11:29  ipd=                                             0
+                11:53:11:29  icablanl=                                        0
+                11:53:11:29  ++ Processing Element Stiffness Matrix.           
+                11:53:11:30  NV1                                            101
+                11:53:11:41  ++ Calculating Element Forces & Reactions.        
+                11:53:11:83  COMBINATION CASES=                               0
+                11:53:11:83  MAX CM MEMORY (KILOWORDS)                       30
+                11:53:11:84  AFTER SOLVER 1                                    
+                11:53:11:85  REOPEN AS SEQ                                    0
+                11:53:11:85  DEFINE ENVELOPE                                   
+                11:53:11:87  LOAD LIST 1101 TO 110                             
+                11:53:11:87  PARAMETER 1                                       
+                11:53:11:88  CHECK CODE ALL                                    
+                11:53:11:88  ENTERING SECTNM110 IQ=                          10
+                11:53:11:88               NSEC=                              11
+                11:53:11:89             ISECTN=                               0
+                11:53:11:91  SECTNM110 DO 925                                  
+                11:53:11:93  ENTERING ENVLP1 ITYP1=                          -3
+                11:53:11:93  SECT DISPLACE                                     
+                11:53:11:95  Steel/Alum/Timber Design                        52
+                11:53:11:97    ++ Finished Design ...                          
+                11:53:11:97  Steel/Timber Design exit                          
+                11:53:11:97  LOAD LIST 2101 TO 210                             
+                11:53:11:98  PARAMETER 1                                       
+                11:53:11:99  CHECK CODE ALL                                    
+                11:53:11:99  ENTERING ENVLP1 ITYP1=                          -3
+                11:53:11:99  SECT DISPLACE                                     
+                11:53:12: 2  Steel/Alum/Timber Design                        52
+                11:53:12: 3    ++ Finished Design ...                          
+                11:53:12: 3  Steel/Timber Design exit                          
+                11:53:12: 3  LOAD LIST ENV 4 TO 7                              
+                11:53:12: 4  PARAMETER 1                                       
+                11:53:12: 4  CHECK CODE ALL                                    
+                11:53:12: 4  ENTERING ENVLP1 ITYP1=                          -3
+                11:53:12: 5  SECT DISPLACE                                     
+                11:53:12: 7  Steel/Alum/Timber Design                        52
+                11:53:12: 9    ++ Finished Design ...                          
+                11:53:12: 9  Steel/Timber Design exit                          
+                11:53:12:10  PRINT JOINT DISPLACEM                             
+                11:53:12:10  DRAW ISOM JOIN MEMB                               
+                11:53:12:11  ENTERING SECTNM110 IQ=                          10
+                11:53:12:11               NSEC=                              11
+                11:53:12:11             ISECTN=                               0
+                11:53:12:14  SECTNM110 DO 925                                  
+                11:53:12:16  PRINT SUPPORT REACTIO                             
+                11:53:12:16  DRAW ISOM SUPP PROP                               
+                11:53:12:16  ENTERING SECTNM110 IQ=                          10
+                11:53:12:17               NSEC=                              11
+                11:53:12:17             ISECTN=                               0
+                11:53:12:19  SECTNM110 DO 925                                  
+                11:53:12:21  DRAW ISOM SHAP                                    
+                11:53:12:21  ENTERING SECTNM110 IQ=                          10
+                11:53:12:22               NSEC=                              11
+                11:53:12:23             ISECTN=                               0
+                11:53:12:25  SECTNM110 DO 925                                  
+                11:53:12:27  PRINT CG                                          
+                11:53:12:27  FINISH                                            
+                11:53:12:27  All Commands FINISHed                             
+                11:53:12:28  DATASAVE for SPRO GUI                             
+                11:53:12:29  ++ Creating Displacement File (DSP)...            
+                11:53:12:31  ++ Creating Reaction File (REA)...                
+                11:53:12:31  ++ Creating Section Force File (BMD)...           
+                11:53:12:33  ++ Creating Section Displace File (SEC)...        
+                11:53:12:33  ENTERING ENVLP1 ITYP1=                          -5
+                11:53:12:34  SECT DISPLACE                                     
+                11:53:12:38  ++ Creating Section Displace File (SCN)...        
+                11:53:12:40  ++ Creating Design information File (DGN)...      
+                11:53:12:40  ALLOCATED CM MEMORY (KILOWORDS)             300000
+                11:53:12:40  MAX CM MEMORY (KILOWORDS)                       70
+                11:53:12:41  DBS LONG SEC NAME                                 

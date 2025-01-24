@@ -1,0 +1,598 @@
+ <h>
+ MEMBER     TABLE       RESULT/   CRITICAL COND/     RATIO/     LOADING/ 
+                          FX            MY             MZ       LOCATION 
+ =======================================================================
+ <e>
+ <check>
+     201 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.3.3-661       0.134      1101
+                       13.25 C        865.30        6124.32        0.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     13.10
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :       26.194          26.194
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.010
+      GM0 :  1.15          GM1 :  1.15          GM2 :  1.30
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :          5.7            5.7
+      Compression Capacity     :       1115.2         1115.2
+      Tension Capacity         :       1115.2         1115.2
+      Moment Capacity          :         47.0           47.0
+      Reduced Moment Capacity  :         47.0           47.0
+      Shear Capacity           :        321.9          321.9
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   47.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.131
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   = 35337.0
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+   EC-6.2.3 (T)   0.006  1105    -6.3     13.0    -6.6    -0.4     0.9
+   EC-6.3.1.1     0.012  1101    13.2     13.0    -6.6     6.1     0.9
+   EC-6.2.9.1     0.130  1101    13.2     13.0    -6.6     6.1     0.9
+   EC-6.3.3-661   0.134  1101    13.2     13.0    -6.6     6.1     0.9
+   EC-6.3.3-662   0.112  1101    13.2     13.0    -6.6     6.1     0.9
+   EC-6.2.5       0.130  1101    13.2     13.0    -6.6     6.1     0.9
+   EC-6.2.6-(Z)   0.021  1101    13.2     13.0    -6.6     6.1     0.9
+   EC-6.2.6-(Y)   0.040  1101    13.2     13.0    -6.6     6.1     0.9
+    Details of torsion design given in .anl file output.
+ <e>
+     202 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.2.6-(Y)       0.000      1101
+                        0.00           -3.14           6.79      208.33
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     25.00
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :      117.200         117.200
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.000
+      GM0 :  1.15          GM1 :  1.15          GM2 :  1.30
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :         25.3           25.3
+      Compression Capacity     :       1070.2         1070.2
+      Tension Capacity         :       1115.2         1115.2
+      Moment Capacity          :         47.0           47.0
+      Reduced Moment Capacity  :         47.0           47.0
+      Shear Capacity           :        321.9          321.9
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   47.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.586
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =  5287.8
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+    Details of torsion design given in .anl file output.
+ <e>
+     203 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.3.3-662       0.132      1104
+                       13.00 C      -2208.79       -4421.73      336.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     33.60
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :      117.200         117.200
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.010
+      GM0 :  1.15          GM1 :  1.15          GM2 :  1.30
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :         25.3           25.3
+      Compression Capacity     :       1070.2         1070.2
+      Tension Capacity         :       1115.2         1115.2
+      Moment Capacity          :         47.0           47.0
+      Reduced Moment Capacity  :         47.0           47.0
+      Shear Capacity           :        321.9          321.9
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   47.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.586
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =  5287.8
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+   EC-6.2.3 (T)   0.012  1101   -13.0    -13.1    -6.5     0.0    -0.0
+   EC-6.3.1.1     0.012  1103    13.0    -13.1    -6.5     0.0     0.0
+   EC-6.2.9.1     0.094  1101   -13.0     13.2     6.6    -4.4     2.2
+   EC-6.3.3-661   0.086  1104    13.0     13.2    -6.6    -4.4    -2.2
+   EC-6.3.3-662   0.132  1104    13.0     13.2    -6.6    -4.4    -2.2
+   EC-6.2.5       0.094  1101   -13.0     13.2     6.6    -4.4     2.2
+   EC-6.2.6-(Z)   0.020  1101   -13.0    -13.1    -6.6     2.9    -1.5
+   EC-6.2.6-(Y)   0.041  1101   -13.0     13.2     6.6    -4.4     2.2
+    Details of torsion design given in .anl file output.
+ <e>
+     204 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC3-5: 5.5         0.000      1208
+                        0.00            0.00           0.00       70.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =      7.00
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :       14.000          14.000
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.000
+      GM0 :  1.15          GM1 :  1.15          GM2 :  1.30
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :          3.0            3.0
+      Compression Capacity     :       1115.2         1115.2
+      Tension Capacity         :       1115.2         1115.2
+      Moment Capacity          :         47.0           47.0
+      Reduced Moment Capacity  :         47.0           47.0
+      Shear Capacity           :        321.9          321.9
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   47.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.070
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =    1.1E+05
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+    Details of torsion design given in .anl file output.
+ <e>
+ <e>
+ <check>
+     201 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.3.3-661       0.090      2101
+                       10.19 C        674.85        4711.02        0.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     13.10
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :       26.194          26.194
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.008
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :          5.7            5.7
+      Compression Capacity     :       1282.5         1282.5
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.131
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   = 35337.0
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+   EC-6.2.3 (T)   0.004  2105    -4.8     10.0    -5.2    -0.3     0.7
+   EC-6.3.1.1     0.008  2101    10.2     10.0    -5.2     4.7     0.7
+   EC-6.2.9.1     0.087  2101    10.2     10.0    -5.2     4.7     0.7
+   EC-6.3.3-661   0.090  2101    10.2     10.0    -5.2     4.7     0.7
+   EC-6.3.3-662   0.075  2101    10.2     10.0    -5.2     4.7     0.7
+   EC-6.2.5       0.087  2101    10.2     10.0    -5.2     4.7     0.7
+   EC-6.2.6-(Z)   0.014  2101    10.2     10.0    -5.2     4.7     0.7
+   EC-6.2.6-(Y)   0.027  2102    10.2     10.0     5.0     4.7    -0.7
+    Details of torsion design given in .anl file output.
+ <e>
+     202 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.2.6-(Y)       0.000      2101
+                        0.00           -2.87           3.34      166.67
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     25.00
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :      117.200         117.200
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.000
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :         25.3           25.3
+      Compression Capacity     :       1230.8         1230.8
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.586
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =  5287.8
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+    Details of torsion design given in .anl file output.
+ <e>
+     203 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.3.3-662       0.089      2104
+                       10.00 C      -1715.43       -3401.33      336.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     33.60
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :      117.200         117.200
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.008
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :         25.3           25.3
+      Compression Capacity     :       1230.8         1230.8
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.586
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =  5287.8
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+   EC-6.2.3 (T)   0.008  2101   -10.0    -10.1    -5.1     0.0    -0.0
+   EC-6.3.1.1     0.008  2103    10.0    -10.1    -5.0     0.0     0.0
+   EC-6.2.9.1     0.063  2101   -10.0     10.1     5.1    -3.4     1.7
+   EC-6.3.3-661   0.057  2104    10.0     10.1    -5.1    -3.4    -1.7
+   EC-6.3.3-662   0.089  2104    10.0     10.1    -5.1    -3.4    -1.7
+   EC-6.2.5       0.063  2101   -10.0     10.1     5.1    -3.4     1.7
+   EC-6.2.6-(Z)   0.014  2101   -10.0    -10.1    -5.1     2.0    -1.0
+   EC-6.2.6-(Y)   0.027  2101   -10.0     10.1     5.1    -3.4     1.7
+    Details of torsion design given in .anl file output.
+ <e>
+     204 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC3-5: 5.5         0.000      2108
+                        0.00            0.00           0.00       70.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =      7.00
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :       14.000          14.000
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.000
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :          3.0            3.0
+      Compression Capacity     :       1282.5         1282.5
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.070
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =    1.1E+05
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+    Details of torsion design given in .anl file output.
+ <e>
+ <e>
+ <check>
+     201 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.3.3-661       0.090      3201
+                       10.19 C        683.11        4711.02        0.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     13.10
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :       26.194          26.194
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.008
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :          5.7            5.7
+      Compression Capacity     :       1282.5         1282.5
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.131
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   = 35337.0
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+   EC-6.2.3 (T)   0.004  3003    -4.8     10.2     0.0    -0.3     0.0
+   EC-6.3.1.1     0.008  3001    10.2     10.2     0.0     4.7     0.0
+   EC-6.2.9.1     0.088  3001    10.2     10.2     0.0     4.7     0.0
+   EC-6.3.3-661   0.090  3201    10.2     10.0    -5.2     4.7     0.7
+   EC-6.3.3-662   0.075  3201    10.2     10.0    -5.2     4.7     0.7
+   EC-6.2.5       0.088  3001    10.2     10.2     0.0     4.7     0.0
+   EC-6.2.6-(Z)   0.016  3005    10.2      0.0    -5.9     3.4     0.8
+   EC-6.2.6-(Y)   0.028  3001    10.2     10.2     0.0     4.7     0.0
+    Details of torsion design given in .anl file output.
+ <e>
+     202 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.2.6-(Z)       0.001      3005
+                        0.00           37.50          -7.53      250.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     25.00
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :      117.200         117.200
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.000
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :         25.3           25.3
+      Compression Capacity     :       1230.8         1230.8
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.586
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =  5287.8
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+    Details of torsion design given in .anl file output.
+ <e>
+     203 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.3.3-662       0.089      3204
+                       10.00 C      -1730.06       -3401.33      336.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =     33.60
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :      117.200         117.200
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.008
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :         25.3           25.3
+      Compression Capacity     :       1230.8         1230.8
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.586
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =  5287.8
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+   EC-6.2.3 (T)   0.008  3001   -10.0    -10.1     0.0     0.0     0.0
+   EC-6.3.1.1     0.008  3002    10.0    -10.1     0.0     0.0     0.0
+   EC-6.2.9.1     0.063  3001   -10.0     10.1     0.0    -3.4     0.0
+   EC-6.3.3-661   0.058  3204    10.0     10.1    -5.2    -3.4    -1.7
+   EC-6.3.3-662   0.089  3204    10.0     10.1    -5.2    -3.4    -1.7
+   EC-6.2.5       0.063  3001   -10.0     10.1     0.0    -3.4     0.0
+   EC-6.2.6-(Z)   0.015  3005     0.0     10.1     5.7    -3.4     1.9
+   EC-6.2.6-(Y)   0.027  3001   -10.0     10.1     0.0    -3.4     0.0
+    Details of torsion design given in .anl file output.
+ <e>
+     204 ST   TUB1201206  (EUROPEAN SECTIONS)
+                           PASS     EC-6.2.6-(Y)       0.000      3001
+                        0.02 C          0.00           2.94        0.00
+ =======================================================================
+   MATERIAL DATA                
+      Grade of steel           =  USER          
+      Modulus of elasticity    =  205 kN/mm2  
+      Design Strength  (py)    =  450  N/mm2                         
+       
+   SECTION PROPERTIES (units - cm)
+      Member Length =      7.00
+      Gross Area =   28.50          Net Area =   28.50
+                                                  
+                                      z-axis          y-axis
+      Moment of inertia        :      610.000         610.000
+      Plastic modulus          :      120.000         120.000
+      Elastic modulus          :      101.667         101.667
+      Shear Area               :       14.250          14.250
+      Radius of gyration       :        4.626           4.626
+      Effective Length         :       14.000          14.000
+                                                   
+   DESIGN DATA (units - kN,m)   EUROCODE NO.3 /2005
+      Section Class            :   CLASS 1     
+      Squash Load              :   1282.50
+      Axial force/Squash load  :     0.000
+      GM0 :  1.00          GM1 :  1.00          GM2 :  1.10
+                                                  
+                                      z-axis          y-axis
+      Slenderness ratio (KL/r) :          3.0            3.0
+      Compression Capacity     :       1282.5         1282.5
+      Tension Capacity         :       1282.5         1282.5
+      Moment Capacity          :         54.0           54.0
+      Reduced Moment Capacity  :         54.0           54.0
+      Shear Capacity           :        370.2          370.2
+     
+   BUCKLING CALCULATIONS (units - kN,m)
+      Lateral Torsional Buckling Moment       MB =   54.0
+      co-efficients C1 & K : C1 =1.132 K =1.0, Effective Length= 0.070
+      Lateral Torsional Buckling Curve : Curve d
+      Elastic Critical Moment for LTB,               Mcr   =    1.1E+05
+      Compression buckling curves:     z-z:  Curve a   y-y:  Curve a
+   CRITICAL LOADS FOR EACH CLAUSE CHECK (units- kN,m):
+    CLAUSE        RATIO  LOAD     FX       VY      VZ      MZ      MY   
+    Details of torsion design given in .anl file output.
+ <e>
