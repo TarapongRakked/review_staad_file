@@ -5,22 +5,22 @@ import json
 import shutil
 from collections import defaultdict
 
-def read_csv_to_list(csv_path):
 
+def read_csv_to_list(csv_path):
     with open(csv_path, 'r') as file:
         reader = csv.reader(file)
         return [row[0] for row in reader if row]
 
 
-def append_extension(file_list, extension):
+def append_extensions(file_list, extensions):
     extension_files = []
     for filename in file_list:
-        for ext in entensions:
-            extend_files.append(f"{filename}{ext}")
+        for ext in extensions:
+            extension_files.append(f"{filename}{ext}")
     return extension_files
 
 
-def find_and_copy_files(file_list, source_folder, found_folder, found_csv):
+def find_and_copy_files(file_list, source_folder, found_folder, found_csv, std_anl_csv):
     not_found_files = set(file_list)
     found_file = []
     std_anl_list = []
@@ -32,16 +32,13 @@ def find_and_copy_files(file_list, source_folder, found_folder, found_csv):
         file_set = set(files)
         matching_files = not_found_files.intersection(file_set)
 
-        std_files = [f for f in files if f.endsewith(".std")]
-        anl_files = [f for f in files if f.endsewith(".ANL")]
+        std_files = [f for f in files if f.endswith(".std")]
+        anl_files = [f for f in files if f.endswith(".ANL")]
 
         for file in files:
             std_status = file if file in std_files else ""
             anl_status = file if file in anl_files else ""
             std_anl_list.append([file, std_status, anl_status])
-
-
-        matching_files = not_found_files.intersection(file_set)
 
         for filename in matching_files:
             source_path = os.path.join(root, filename)
@@ -51,11 +48,10 @@ def find_and_copy_files(file_list, source_folder, found_folder, found_csv):
 
         not_found_files -= matching_files
 
-
     with open(found_csv, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["Filename", "Path"])  # Correctly write the column headers
-        writer.writerows(found_file)          # Write all rows (filename and path)
+        writer.writerow(["Filename", "Path"])
+        writer.writerows(found_file)
 
     with open(std_anl_csv, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
@@ -65,9 +61,7 @@ def find_and_copy_files(file_list, source_folder, found_folder, found_csv):
     return list(not_found_files)
 
 
-
 def extract_text_from_file(file_path):
-
     with open(file_path, 'r') as file:
         content = file.read()
 
@@ -75,8 +69,9 @@ def extract_text_from_file(file_path):
 
     return match.group(1).strip() if match else None
 
+
 def process_found_files(found_folder, output_json):
-    results = {}  # Correct variable name
+    results = {}
 
     for filename in os.listdir(found_folder):
         file_path = os.path.join(found_folder, filename)
@@ -84,8 +79,7 @@ def process_found_files(found_folder, output_json):
         results[filename] = extracted_text if extracted_text else "No relevant text found"
 
     with open(output_json, 'w') as json_file:
-        json.dump(results, json_file, indent=4)  # Correct variable name
-
+        json.dump(results, json_file, indent=4)
 
 
 if __name__ == "__main__":
@@ -93,14 +87,13 @@ if __name__ == "__main__":
     source_folder = "./input/Staad"
     found_folder = "./found"
     found_csv = "found_files.csv"
-    std_anl_csv = "std_anl_files.csv"  # New CSV for STD and ANL files
+    std_anl_csv = "std_anl_files.csv"
     output_json = "output.json"
 
     if not os.path.exists(csv_path):
         print(f"Support List '{csv_path}' does not exist.")
     else:
         file_list = read_csv_to_list(csv_path)
-        # Append both .std and .ANL extensions to file list
         file_list_with_extensions = append_extensions(file_list, [".std", ".ANL"])
 
         not_found_files = find_and_copy_files(
@@ -116,5 +109,3 @@ if __name__ == "__main__":
         print(f"Staad Review Completed. Results saved to '{output_json}'.")
         print(f"Found files list saved to '{found_csv}'.")
         print(f"STD and ANL files list saved to '{std_anl_csv}'.")
-
-
