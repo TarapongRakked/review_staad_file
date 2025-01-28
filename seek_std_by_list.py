@@ -19,7 +19,7 @@ def read_names_from_csv(file_path):
 
 def search_files(base_dir, names):
     """
-    Search for files in a directory and subdirectories that match the given names and end with .std.
+    Search for files in a directory and subdirectories that match the given names.
 
     Args:
         base_dir (str): The base directory to search in.
@@ -33,11 +33,10 @@ def search_files(base_dir, names):
 
     for root, _, files in os.walk(base_dir):
         for file in files:
-            if file.endswith(".std"):
-                for name in names:
-                    if name in file:
-                        found_files.append((name, os.path.join(root, file)))
-                        not_found_names.discard(name)
+            for name in names:
+                if name in file:
+                    found_files.append((name, os.path.join(root, file)))
+                    not_found_names.discard(name)
     
     return found_files, not_found_names
 
