@@ -2,15 +2,7 @@ import os
 import csv
 
 def read_names_from_csv(file_path):
-    """
-    Read a list of names from the first column of a CSV file.
 
-    Args:
-        file_path (str): Path to the CSV file.
-
-    Returns:
-        list: A list of names from the CSV file.
-    """
     with open(file_path, mode='r', newline='', encoding="utf-8") as file:
         reader = csv.reader(file)
         names = [row[0].strip() for row in reader if row]
@@ -36,7 +28,7 @@ def search_files(base_dir, names):
             if file.endswith(".std"):
                 for name in names:
                     if name in file:
-                        found_files.append((name, os.path.join(root, file)))
+                        found_files.append((name, file))
                         not_found_names.discard(name)
     
     return found_files, not_found_names
